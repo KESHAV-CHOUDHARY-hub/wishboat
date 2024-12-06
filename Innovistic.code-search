@@ -1,0 +1,194 @@
+# Query: Innovistic
+# ContextLines: 1
+
+49 results - 11 files
+
+aboutus.html:
+  157          <nav class="navbar navbar-expand-lg navbar-dark">
+  158:           <a class="navbar-brand" href="#">Visionova</a>
+  159            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  189              for everything from ideation, software, launching, and marketing your product? 
+  190:             Innovistic is the right fit for all your digital needs.
+  191            </p>
+
+  194              <li>We offer a wide range of services, including product design and development, website and mobile app development, digital marketing, and AI Tools.</li>
+  195:             <li>At Innovistic, we deliver personalized solutions for each unique business, recognizing their individual needs and requirements.</li>
+  196:             <li>Stay ahead of the competition with Innovistic's advanced one-stop digital solutions.</li>
+  197            </ul>
+
+  250            <h4>Customization</h4>
+  251:           <p>Innovistic often offers tailor-made solutions to every customer as a unique service. We understand the need to address customer's individual needs to address in a specific manner.</p>
+  252          </div>
+
+  255            <h4>Quality Over Quantity</h4>
+  256:           <p>Innovistic's commitment is to exceeding every customer's expectations with high-quality services. We adhere to strict quality standards and procedures.</p>
+  257          </div>
+
+  260            <h4>Staying Together Leads to Success</h4>
+  261:           <p>Innovistic strives to build long-term partnerships with its clients, providing them with an outstanding user experience.</p>
+  262          </div>
+
+  265            <h4>Innovation</h4>
+  266:           <p>Innovistic's commitment to innovation and R&D allows us to start with cutting-edge technologies, helping organizations to gain a competitive edge in the respective industry.</p>
+  267          </div>
+
+ai.html:
+  136      <nav class="navbar navbar-expand-lg navbar-dark">
+  137:       <a class="navbar-brand" href="#">Innovistic</a>
+  138        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  202        <p>
+  203:         At Innovistic, we specialize in delivering tailored AI tools and services that transform how businesses operate. From AI-powered chatbots to predictive analytics, our solutions empower businesses to achieve efficiency, improve customer satisfaction, and gain a competitive edge.
+  204        </p>
+
+  215        </ul>
+  216:       <h3 class="mt-5">Why Choose Innovistic for AI Solutions?</h3>
+  217        <ul>
+
+  228    <footer class="bg-dark text-white py-3 text-center">
+  229:     <p>© 2024 Innovistic. All Rights Reserved.</p>
+  230    </footer>
+
+analytics.html:
+  136      <nav class="navbar navbar-expand-lg navbar-dark">
+  137:       <a class="navbar-brand" href="#">Innovistic</a>
+  138        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  205        <p>
+  206:         At Innovistic, we combine cutting-edge technologies with deep analytical expertise to deliver customized solutions that align with your business goals. Whether it's demand forecasting, risk assessment, or customer behavior analysis, we have the tools and techniques to transform your data into a strategic asset.
+  207        </p>
+
+  215        </ul>
+  216:       <h3 class="mt-5">Why Choose Innovistic for Predictive Analytics?</h3>
+  217        <ul>
+
+  228    <footer class="bg-dark text-white py-3 text-center">
+  229:     <p>© 2024 Innovistic. All Rights Reserved.</p>
+  230    </footer>
+
+contact.html:
+   63      <nav class="navbar navbar-expand-lg navbar-dark">
+   64:       <a class="navbar-brand" href="#">Innovistic</a>
+   65        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+   97              <h5>Our Office</h5>
+   98:             <p>123 Innovistic Street<br>Tech City, State, 56789</p>
+   99            </div>
+
+  104              <h5>Email Us</h5>
+  105:             <p>info@innovistic.com<br>support@innovistic.com</p>
+  106            </div>
+
+  119          <iframe 
+  120:           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509372!2d144.95373531531596!3d-37.817209979751704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577f9a4b8ecac6!2s123%20Innovistic%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1636335043827!5m2!1sen!2sus" 
+  121            allowfullscreen=""
+
+  129    <footer class="bg-dark text-white py-3 text-center">
+  130:     <p>© 2024 Innovistic. All Rights Reserved.</p>
+  131    </footer>
+
+cyber.html:
+  136      <nav class="navbar navbar-expand-lg navbar-dark">
+  137:       <a class="navbar-brand" href="#">Innovistic</a>
+  138        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  202        <p>
+  203:         Innovistic specializes in delivering cutting-edge cybersecurity and IT infrastructure solutions that protect your business from ever-evolving cyber threats. With a focus on scalability, we design IT infrastructure solutions that align with your organization's current and future needs.
+  204        </p>
+
+  228    <footer class="bg-dark text-white py-3 text-center">
+  229:     <p>© 2024 Innovistic. All Rights Reserved.</p>
+  230    </footer>
+
+digital.html:
+  136      <nav class="navbar navbar-expand-lg navbar-dark">
+  137:       <a class="navbar-brand" href="#">Innovistic</a>
+  138        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  202        <p>
+  203:         At Innovistic, we deliver comprehensive digital marketing solutions tailored to your business needs. Our expertise spans search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, and more. Through data-driven strategies and advanced analytics, we ensure your brand reaches the right audience, at the right time, through the right channels.
+  204        </p>
+
+  215        </ul>
+  216:       <h3 class="mt-5">Why Choose Innovistic for Digital Marketing?</h3>
+  217        <ul>
+
+  228    <footer class="bg-dark text-white py-3 text-center">
+  229:     <p>© 2024 Innovistic. All Rights Reserved.</p>
+  230    </footer>
+
+emerging.html:
+  136      <nav class="navbar navbar-expand-lg navbar-dark">
+  137:       <a class="navbar-brand" href="#">Innovistic</a>
+  138        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  202        <p>
+  203:         At Innovistic, we are passionate about bringing the latest technological innovations to your business. Whether it's leveraging the potential of blockchain, exploring quantum computing, or developing IoT-enabled solutions, we are here to lead your business into the future.
+  204        </p>
+
+  215        </ul>
+  216:       <h3 class="mt-5">Why Choose Innovistic for Emerging Technologies?</h3>
+  217        <ul>
+
+  228    <footer class="bg-dark text-white py-3 text-center">
+  229:     <p>© 2024 Innovistic. All Rights Reserved.</p>
+  230    </footer>
+
+index.html:
+    5    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6:   <title>Innovistic Style Website with Animations</title>
+    7    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  138      <nav class="navbar navbar-expand-lg navbar-dark">
+  139:       <a class="navbar-brand" href="#">Innovistic</a>
+  140        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  162              <h2>About Us.</h2>
+  163:           <p>Innovistic is an innovative and leading software development and business consulting company in Bengaluru. We commit to creating cutting-edge solutions that meet our client’s most challenging digital transformation needs. With over 3+ years of experience, our experts leverage services to manage the operations and systems of businesses of all sizes as they make their way through their cloud-enabled digital transformation.
+  164  
+
+  166              
+  167:             Innovistic is an innovative and leading software development and business consulting company in Bengaluru. We commit to creating cutting-edge solutions that meet our client’s most challenging digital transformation needs. With over 3+ years of experience, our experts leverage services to manage the operations and systems of businesses of all sizes as they make their way through their cloud-enabled digital transformation.
+  168  
+  169  We offer a wide range of services, including product development, Cyber Security, website and mobile app development, digital marketing solutions, and AI Tools. We take pride in delivering exceptional solutions that exceed our client’s expectations and aim to empower them to achieve their objectives and build a sustainable, thriving business.
+  170: Innovistic is an innovative and leading software development and business consulting company in Bengaluru. We commit to creating cutting-edge solutions that meet our client’s most challenging digital transformation needs. With over 3+ years of experience, our experts leverage services to manage the operations and systems of businesses of all sizes as they make their way through their cloud-enabled digital transformation.
+  171  
+  172  We offer a wide range of services, including product development, Cyber Security, website and mobile app development, digital marketing solutions, and AI Tools. We take pride in delivering exceptional solutions that exceed our client’s expectations and aim to empower them to achieve their objectives and build a sustainable, thriving business.
+  173: Innovistic is an innovative and leading software development and business consulting company in Bengaluru. We commit to creating cutting-edge solutions that meet our client’s most challenging digital transformation needs. With over 3+ years of experience, our experts leverage services to manage the operations and systems of businesses of all sizes as they make their way through their cloud-enabled digital transformation.
+  174  
+
+services.html:
+  229          <nav class="navbar">
+  230:             <a class="navbar-brand" href="#">Innovistic</a>
+  231              <button class="navbar-toggler" onclick="toggleMenu()">☰</button>
+
+softwaredev.html:
+  106      <nav class="navbar navbar-expand-lg navbar-dark">
+  107:       <a class="navbar-brand" href="#">Innovistic</a>
+  108        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  141      <div class="container">
+  142:       <!-- <h2 class="content-title text-center">Innovistic: Transforming Ideas into Reality</h2> -->
+  143:       <p>Innovistic is a leading product design and development services company that helps businesses transform their ideas into innovative and successful products. We offer end-to-end product design and development services, from conceptualization to launch and maintenance.</p>
+  144        <h3 class="mt-5">Diverse Product Design & Development Services</h3>
+  145:       <p><strong>Software Design & Development:</strong> At Innovistic, we're committed to delivering innovative software development services that help our clients remain at the forefront of their industries.</p>
+  146        <p><strong>ERP Tools Design & Development:</strong> We specialize in designing custom ERP tools that streamline your business processes.</p>
+
+  192    <footer class="bg-dark text-white py-3 text-center">
+  193:     <p>© 2024 Innovistic. All Rights Reserved.</p>
+  194    </footer>
+
+webistedev.html:
+  156      <nav class="navbar navbar-expand-lg navbar-dark">
+  157:       <a class="navbar-brand" href="#">Innovistic</a>
+  158        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  220      <div class="container">
+  221:       <h2 class="content-title text-center">Innovistic: Your Technology Partner</h2>
+  222:       <p>Innovistic is a trusted provider of website and application development services. We transform your ideas into high-quality web and mobile applications that deliver value to your business. From ideation to deployment, we ensure each step is aligned with your goals.</p>
+  223        <h3 class="mt-5">Our Development Process</h3>
+
+  234    <footer class="bg-dark text-white py-3 text-center">
+  235:     <p>© 2024 Innovistic. All Rights Reserved.</p>
+  236    </footer>

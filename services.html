@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Design and Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer {
+    background-color: #002a5c; /* Match your footer color */
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  .footer img {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .footer h4 {
+    color: #0d6efd; /* Highlight section headings in a contrasting color */
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .footer p {
+    margin-bottom: 8px;
+  }
+
+  .footer a {
+    color: #d1d1d1; /* Muted link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer a:hover {
+    color: #0d6efd; /* Hover color for links */
+  }
+
+  .footer-services-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-services-list li {
+    margin-bottom: 8px;
+  }
+
+  .footer-services-list li a {
+    font-size: 0.95rem;
+    display: inline-block;
+  }
+
+  .footer-line {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2); /* Subtle divider line */
+    margin: 0;
+  }
+
+  .copyright {
+    font-size: 0.8rem; /* Smaller font for copyright */
+  }
+        .navbar-toggler {
+            display: none;
+            border: none;
+            background: transparent;
+            font-size: 30px;
+            color: white;
+        }
+
+        .navbar-nav {
+            display: flex;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .nav-item {
+            margin-left: 20px;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ddd;
+        }
+
+        /* Toggler visibility on small screens */
+        @media (max-width: 768px) {
+            .navbar-nav {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 10px;
+            }
+
+            .navbar-nav.active {
+                display: flex;
+            }
+
+            .navbar-toggler {
+                display: block;
+            }
+
+            .nav-item {
+                margin: 10px 0;
+                text-align: center;
+            }
+
+            .navbar {
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+        /* General Styling for the Page */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        .services-description {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            gap: 20px;
+        }
+
+        .services-description img {
+            width: 40%;
+            border-radius: 10px;
+            animation: fadeInLeft 1s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .description-text {
+            width: 55%;
+            animation: fadeInRight 1s ease-in-out;
+        }
+
+        .description-text h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .description-text p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Cards Section */
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        /* Custom card layout */
+        .custom-card {
+            display: flex;
+            flex-direction: row;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+            max-width: 540px;
+        }
+
+        .custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .custom-card img {
+            width: 40%;
+            height: auto;
+            object-fit: cover;
+            animation: fadeInLeft 1s ease-in-out;
+        }
+
+        .custom-card-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 60%;
+        }
+
+        .custom-card-title {
+            font-size: 18px;
+            margin: 0 0 10px;
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .custom-card-text {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Keyframe Animations */
+        @keyframes fadeInLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            0% {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand" href="index.html">Visionova</a>
+            <button class="navbar-toggler" onclick="toggleMenu()">☰</button>
+            <div class="navbar-nav" id="navbarNav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="aboutus.html">About Us</a>
+                <a class="nav-item nav-link" href="services.html">Services</a>
+                <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="heading">Diverse Product Design & Development Services</h1>
+
+        <!-- Services Description Section -->
+        <div class="services-description">
+            <img src="../images/support.jpg" alt="Services Overview">
+            <div class="description-text">
+                <h2>Empowering Businesses Through Technology</h2>
+                <p>Our services are designed to cater to a wide range of industries and needs. From developing innovative software solutions to securing your IT infrastructure, we ensure that businesses are equipped with the tools to thrive in today's digital world. Explore our specialized offerings below to see how we can help you achieve your goals.</p>
+            </div>
+        </div>
+
+       <!-- Cards Section -->
+       <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="custom-card">
+            <img src="../cards/softwareDev.jpg" alt="Software Development">
+            <div class="custom-card-content">
+                <a href="softwaredev.html" class="custom-card-title">Software and Product Development</a>
+                <p class="custom-card-text">Custom solutions to meet unique business requirements with scalable and efficient software development practices.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="custom-card">
+            <img src="../cards/websiteDev.jpg" alt="Website and Application">
+            <div class="custom-card-content">
+                <a href="webistedev.html" class="custom-card-title">Website and Application Development</a>
+                <p class="custom-card-text">Innovative and responsive websites and applications tailored for seamless user experience.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="custom-card">
+            <img src="../cards/cybersecurity.jpg" alt="Cybersecurity">
+            <div class="custom-card-content">
+                <a href="cyber.html" class="custom-card-title">Cybersecurity and IT Infrastructure</a>
+                <p class="custom-card-text">Robust cybersecurity solutions to protect your business against potential threats and vulnerabilities.</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="custom-card">
+            <img src="../cards/aitoolds.jpg" alt="AI Tools">
+            <div class="custom-card-content">
+                <a href="ai.html" class="custom-card-title">AI Tools and Services</a>
+                <p class="custom-card-text">Leverage AI tools to enhance productivity, automate processes, and gain insightful analytics.</p>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="custom-card">
+            <img src="../cards/digitalmarket.jpg" alt="Digital Marketing">
+            <div class="custom-card-content">
+                <a href="digital.html" class="custom-card-title">Digital Marketing and Analytics</a>
+                <p class="custom-card-text">Data-driven marketing strategies to enhance online presence and maximize ROI.</p>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="custom-card">
+            <img src="../cards/emergingTech.jpg" alt="Emerging Technologies">
+            <div class="custom-card-content">
+                <a href="emerging.html" class="custom-card-title">Emerging Technologies</a>
+                <p class="custom-card-text">Adopting innovative technologies to stay ahead in an ever-changing digital landscape.</p>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="custom-card">
+            <img src="../cards/predAnalysis.jpg" alt="Predictive Analytics">
+            <div class="custom-card-content">
+                <a href="analytics.html" class="custom-card-title">Predictive Analytics</a>
+                <p class="custom-card-text">Harness the power of data to make informed predictions and strategic decisions.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container py-4">
+      <div class="row">
+        <!-- Logo and Description -->
+        <div class="col-md-4 mb-4">
+          <img src="../images/VISINOVA.png" alt="Innovistic Technologies Logo" style="max-width: 150px; margin-bottom: 15px;">
+          <p>Visinova Technologies is an award-winning Software solutions company established in 2019. We design, develop, digitize, and provide consulting services to companies of all shapes and sizes.</p>
+        </div>
+  
+        <!-- Services -->
+        <div class="col-md-4 mb-4">
+          <h4>Services</h4>
+          <ul class="footer-services-list">
+            <li><a href="softwaredev.html">Software and Product Developmentt</a></li>
+            <li><a href="webistedev.html">Website and Application Development</a></li>
+            <li><a href="cyber.html">Cybersecurity and IT Infrastructure</a></li>
+            <li><a href="ai.html">AI Tools and Services</a></li>
+            <li><a href="digital.html">Digital Marketing and Analytics</a></li>
+            <li><a href="emerging.html">Emerging Technologies</a></li>
+            <li><a href="analytics.html">Predictive Analytics</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Details -->
+        <div class="col-md-4 mb-4">
+          <h4>Office Address</h4>
+          <p>WISHBOAT SOFTTECH PRIVATE LIMITED</p><p>
+            Unit no. TF-19, 3rd floor, Jaipur Electronic Market, Durgapura, Jaipur, Rajasthan - 302018</p>
+          <p>Email: <a href="mailto:contact@innovistic.in">contact@visinova.in</a></p>
+          <p>Phone: <a href="tel:+919685281603">+91-9685281603</a>, <a href="tel:+919054232787">+91-9054232787</a></p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Horizontal Line and Copyright -->
+    <hr class="footer-line">
+    <div class="text-center py-2 copyright">
+      <p>&copy; 2024 Visinova Technologies. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+    <script>
+        function toggleMenu() {
+            const navbar = document.getElementById('navbarNav');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
